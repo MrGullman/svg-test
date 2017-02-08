@@ -1,0 +1,30 @@
+body {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 150px 0;
+}
+
+img {
+	width: 400px;
+	height: auto;
+}
+
+.cls-1 {
+				fill:#f8ac1c;
+			}
+		
+			#j {
+				stroke-dasharray : 800;
+				stroke-dashoffset: 0;
+				animation: dash 2s linear forwards;
+			}
+			
+			@-webkit-keyframes dash {
+				from {
+					stroke-dashoffset: 800;
+				}
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
